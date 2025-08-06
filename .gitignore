@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Data
+data/*.csv
+data/*.html
+
+# Model files
+models/*.pkl
+models/*.h5
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# OS specific
+.DS_Store
+Thumbs.db
