@@ -1,0 +1,13 @@
+name: bitcoin_forecast
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pip
+  - numpy=1.24.3
+  - pandas=1.5.3
+  - streamlit=1.24.0
+  - plotly=5.15.0
+  - prophet
+  - pip:
+    - yfinance==0.2.28
